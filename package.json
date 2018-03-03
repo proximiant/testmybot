@@ -32,7 +32,7 @@
   "dependencies": {
     "async": "^2.1.5",
     "body-parser": "^1.18.2",
-    "botium-core": "1.1.13",
+    "botium-core": "git+ssh://astamaliyev@github.com/proximiant/arbiter.git#my_master_branch",
     "chai": "^4.1.2",
     "chalk": "^2.3.0",
     "clear": "0.0.1",
@@ -66,7 +66,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeforequity-at/testmybot.git"
+    "url": "git+https://github.com/proximiant/testmybot"
   },
   "keywords": [
     "continuous",
@@ -74,7 +74,7 @@
     "chatbot"
   ],
   "bugs": {
-    "url": "https://github.com/codeforequity-at/testmybot/issues"
+    "url": "https://github.com/proximiant/testmybot/issues"
   },
-  "homepage": "https://github.com/codeforequity-at/testmybot#readme"
+  "homepage": "https://github.com/proximiant/testmybot#readme"
 }

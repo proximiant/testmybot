@@ -101,10 +101,10 @@ module.exports = class TestMyBot {
     })
   }
 
-  hears (arg) {
+  hears (arg, sender) {
     if (this.container) {
       if (_.isString(arg)) {
-        return this.container.UserSaysText(arg)
+        return this.container.UserSaysText(arg, sender)
       } else {
         return this.container.UserSays(arg)
       }
